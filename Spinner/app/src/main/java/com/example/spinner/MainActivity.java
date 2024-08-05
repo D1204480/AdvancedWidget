@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
 
         // 找到選項的array
-        String[] fruits = getResources().getStringArray(R.array.fruit);
+        String[] fruit = getResources().getStringArray(R.array.fruit);
         int index = spinner.getSelectedItemPosition();   // 選擇第幾個位置
 
         TextView result = (TextView) findViewById(R.id.tv_result);
-        result.setText("您選的是: " + fruits[index]);
+        result.setText("您選的是: " + fruit[index]);
     }
 }
