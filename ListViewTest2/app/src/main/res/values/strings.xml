@@ -2,7 +2,7 @@
     <string name="app_name">ListViewTest2</string>
     <string-array name="cities">
         <item>New York</item>
-        <item>New Taipei</item>
+        <item>Taipei</item>
         <item>Tokyo</item>
         <item>Hawaii</item>
         <item>Bangkok</item>

@@ -20,6 +20,7 @@
         app:layout_constraintVertical_bias="0.202" />
 
     <ListView
+        android:id="@+id/cities_listView"
         android:layout_width="376dp"
         android:layout_height="352dp"
         android:entries="@array/cities"
